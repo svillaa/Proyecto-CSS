@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+} 
+
+main {
+    background-image: url(../img/fondo.jpg);
+    height: 250px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+
+}
+
+main h1 {
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+main h3 {
+    padding-left: 50px;
+}
+
+.products .product {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.products .product .info {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
